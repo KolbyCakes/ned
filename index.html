@@ -77,7 +77,7 @@ button:hover {
 
 <a id="topright" href="#" title="Welcome to Ned!"></a>
 
-
+<test>
 <html>
 <head>
 <div style="padding:10px;margin-top:10px;height:1000px;">
@@ -114,6 +114,29 @@ Or enter a color
 </marquee>
 <hr>
 </font> </p> </form> 
+</test>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("test").hide();
+        $("test2").show();
+    });
+    $("#show").click(function(){
+        $("test").show();
+        $("test2").hide();
+    });
+});
+</script>
+</head>
+<body>
+<button id="hide">Hide Change background</button></test>
+<test2><button id="show">Show Change background</button></test2>
+
+</body>
+</html>
 <title>Ned</title>
 
 <style>
