@@ -45,8 +45,8 @@ li a:hover:not(.active) {
 
     top: 0;
     display: block;
-    height: 125px;
-    width: 155px;
+    height: 60px;
+    width: 135px;
     background: url(https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif) no-repeat;
     text-indent: -999em;
     text-decoration: none;
@@ -64,7 +64,7 @@ button:hover {
   
 <ul>
   <li><a id="topright" href="#top" title="Back to Ned"></a></li>
-  <li></li><a href="https://bugaos.weebly.com">Buga OS</a></li>
+  <li><a href="https://bugaos.weebly.com">Buga OS</a></li>
   <li><a href="https://dev.bukkit.org/bukkit-plugins/BSwear">BSwear</a></li>
   <li><a class="active" href="http://nedhome.ml">Ned</a></li></font>
 </ul></li>
@@ -80,7 +80,18 @@ button:hover {
 <html>
 <head>
 <div style="padding:10px;margin-top:10px;height:1000px;">
-
+<script type="text/javascript">
+function showPreview()
+{
+  var spanPreview = document.getElementById('preview');
+  if (spanPreview.style.display == 'none')
+    spanPreview.style.display = 'inline'
+  else
+    spanPreview.style.display = 'none'
+}
+</script>
+<a href="javascript:showPreview();">hide Change Background Color</a>
+<span id="preview" style="display: inline;"><br><br>
 <font size="1" face="Verdana,Arial,Helvetica,Sans Serif">Choose 
 a Background Color:  <input class="i" type="button" name="colr" 
 value=" BLUE " onclick="document.bgColor='#0000FF'"> <input 
