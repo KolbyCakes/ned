@@ -91,3 +91,10 @@ li a:hover:not(.active) {
     text-decoration: none;
     background-size: 110px;
 }
+
+.nedface {
+    background: url(https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif) no-repeat;
+   }
+.nedface:hover {
+    background: url(http://i.imgur.com/CnlYhVl.gif) no-repeat;
+   }
