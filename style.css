@@ -92,9 +92,6 @@ li a:hover:not(.active) {
     background-size: 110px;
 }
 
-.nedface {
-    background: url(https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif) no-repeat;
-   }
-.nedface:hover {
+div img:hover {
     background: url(http://i.imgur.com/CnlYhVl.gif) no-repeat;
    }
