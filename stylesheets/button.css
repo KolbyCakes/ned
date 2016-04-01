@@ -45,14 +45,4 @@ button:active {
    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
    color: #fff;
    }
-#topright {
-    position: fixed;
-    top: 0;
 
-    height: 60px;
-    width: 135px;
-    background: url(https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif) no-repeat;
-    text-indent: -999em;
-    text-decoration: none;
-    background-size: 110px;
-}
