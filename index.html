@@ -1,14 +1,16 @@
  <link rel="stylesheet" href="stylesheets/button.css">
  <link rel="stylesheet" href="stylesheets/topleft.css">
  <link rel="shortcut icon" href="https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif">
-<font size="3">
   <CENTER>
   <li><a id="topright" href="#top" title="Ned">&nbsp;</a></li>
   </CENTER>
 <div id="top"></div>
+<!--Sets Page Title-->
 <title>Ned</title>
+<!--Fork me on github-->
 <a href="https://github.com/IsaiahPatton/ned/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://goo.gl/VI66Z5" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
 <CENTER>
+<!--Ned Face-->
 <img class="lightblue" src="https://raw.githubusercontent.com/IsaiahPatton/ned/gh-pages/imgs/ned.gif" alt="Ned's Face" height="200" width="600"></p>
 </CENTER>
     
@@ -80,159 +82,7 @@ p {font-size: 12pt}
 
 </style>
 
-<SCRIPT LANGUAGE="JavaScript">
-<!-- Begin
-var Memory = 0;
-var Number1 = "";
-var Number2 = "";
-var NewNumber = "blank";
-var opvalue = "";
-
-function Display(displaynumber) {
-document.calculator.answer.value = displaynumber;
-}
-
-function MemoryClear() {
-Memory = 0;
-document.calculator.mem.value = "";
-}
-
-function MemoryRecall(answer) {
-if(NewNumber != "blank") {
-Number2 += answer;
-} else {
-Number1 = answer;
-}
-NewNumber = "blank";
-Display(answer);
-}
-
-function MemorySubtract(answer) {
-Memory = Memory - eval(answer);
-}
-
-function MemoryAdd(answer) {
-Memory = Memory + eval(answer);
-document.calculator.mem.value = " M ";
-NewNumber = "blank";
-}
-
-function ClearCalc() {
-Number1 = "";
-Number2 = "";
-NewNumber = "blank";
-Display("");
-}
-
-function Backspace(answer) {
-answerlength = answer.length;
-answer = answer.substring(0, answerlength - 1);
-if (Number2 != "") {
-Number2 = answer.toString();
-Display(Number2);
-} else {
-Number1 = answer.toString();
-Display(Number1);
-   }
-}
-
-function CECalc() {
-Number2 = "";
-NewNumber = "yes";
-Display("");
-}
-
-function CheckNumber(answer) {
-if(answer == ".") {
-Number = document.calculator.answer.value;
-if(Number.indexOf(".") != -1) {
-answer = "";
-   }
-}
-if(NewNumber == "yes") {
-Number2 += answer;
-Display(Number2);
-}
-else {
-if(NewNumber == "blank") {
-Number1 = answer;
-Number2 = "";
-NewNumber = "no";
-}
-else {
-Number1 += answer;
-}
-Display(Number1);
-   }
-}
-function AddButton(x) {
-if(x == 1) EqualButton();
-if(Number2 != "") {
-Number1 = parseFloat(Number1) + parseFloat(Number2);
-}
-NewNumber = "yes";
-opvalue = '+';
-Display(Number1);
-}
-function SubButton(x) {
-if(x == 1) EqualButton();
-if(Number2 != "") {
-Number1 = parseFloat(Number1) - parseFloat(Number2);
-}
-NewNumber = "yes";
-opvalue = '-';
-Display(Number1);
-}
-function MultButton(x) {
-if(x == 1) EqualButton();
-if(Number2 != "") {
-Number1 = parseFloat(Number1) * parseFloat(Number2);
-}
-NewNumber = "yes";
-opvalue = '*';
-Display(Number1);
-}
-function DivButton(x) {
-if(x == 1) EqualButton();
-if(Number2 != "") {
-Number1 = parseFloat(Number1) / parseFloat(Number2);
-}
-NewNumber = "yes";
-opvalue = '/';
-Display(Number1);
-}
-function SqrtButton() {
-Number1 = Math.sqrt(Number1);
-NewNumber = "blank";
-Display(Number1);
-}
-function PercentButton() {
-if(NewNumber != "blank") {
-Number2 *= .01;
-NewNumber = "blank";
-Display(Number2);
-   }
-}
-function RecipButton() {
-Number1 = 1/Number1;
-NewNumber = "blank";
-Display(Number1);
-}
-function NegateButton() {
-Number1 = parseFloat(-Number1);
-NewNumber = "no";
-Display(Number1);
-}
-function EqualButton() {
-if(opvalue == '+') AddButton(0);
-if(opvalue == '-') SubButton(0);
-if(opvalue == '*') MultButton(0);
-if(opvalue == '/') DivButton(0);
-Number2 = "";
-opvalue = "";
-}
-//  End -->
-</script>
+<script type="text/javascript" src="js/cal.js"></script>
 
 </head>
 
@@ -299,7 +149,7 @@ onClick="ClearCalc(); return false;">
 </table>
 </form>
 </center>
-<a href="#top"><button>Back to Ned</button></a></p>
+<a href="#topright"><button>Back to Ned</button></a></p>
 </body>
 <p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p>
 <p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p><p> &nbsp; </p>
