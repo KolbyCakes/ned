@@ -48,7 +48,7 @@ button:active {
 .copylink {
    color: black;
 } 
-a button{
+a button img{
    text-shadow: #1e4158 0 1px 0;
    border: 1px solid #0a3c59;
    background: #65a9d7;
