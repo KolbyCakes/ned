@@ -1,0 +1,19 @@
+ul.copyright {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #e7e7e7;
+    background-color: #f3f3f3;
+    bottom: 0;
+    position: fixed;
+    align: center;
+    float: center;
+    bottom: 0;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    align: center;
+}
