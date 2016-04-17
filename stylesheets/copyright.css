@@ -1,4 +1,4 @@
-ul.copyright {
+ol.copyright {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,7 +7,6 @@ ul.copyright {
     background-color: #f3f3f3;
     bottom: 0;
     position: fixed;
-    align: center;
     float: center;
     bottom: 0;
     display: block;
@@ -15,5 +14,4 @@ ul.copyright {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-    align: center;
 }
