@@ -1,6 +1,6 @@
 # Ned
 Run Ned at http://isaiahpatton.github.io/ or http://nedhome.ml or http://n-e-d.github.io
-<hr>
+# Source Files
 <table style="width:20%">
   <tr>
     <td><center>Name</center></td>
@@ -11,7 +11,7 @@ Run Ned at http://isaiahpatton.github.io/ or http://nedhome.ml or http://n-e-d.g
     <td>index.html</p>calculator.html</p>calendar.html</p>clock.html</p>google.html</p>moneyconverter.html</td>	
   </tr>
 </table>
-<hr>
+# Copyright License
 The MIT License (MIT)</p>
 
 Copyright (c) 2016 Isaiah Patton</p>
