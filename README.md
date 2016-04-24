@@ -9,6 +9,16 @@ Calendar:	         calendar.html</p>
 Clock:             clock.html</p>
 Google & Yahoo:    google.html</p>
 Money Converter:   moneyconverter.html</p>
+<table style="width:20%">
+  <tr>
+    <td><center>Name</center></td>
+    <td><center>Source File</center></td>		
+  </tr>
+  <tr>
+    <td>Ned site</p>Calculator</p>Calender</p>Clock</p>Google & Yahoo</p>Money Converter</td>		
+    <td>index.html</p>calculator.html</p>calendar.html</p>clock.html</p>google.html</p>moneyconverter.html</td>	
+  </tr>
+</table>
 <hr>
 The MIT License (MIT)</p>
 
