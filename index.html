@@ -81,10 +81,16 @@ document.bgColor=(""+form.text.value+"");
    }
 }
 </SCRIPT>
+
 <FORM>
 Enter a color: 
-<input type="text" name="text">
-<input type="button" name="button" value="Change Background" onClick="changebackground(this.form)">
+<style type="text/css">
+input.cbg {
+width: 10%
+}
+</style>
+<input class="cbg" type="text" name="text">
+<input type="button" name="button" value="Change" onClick="changebackground(this.form)">
 </details></FORM>
 </CENTER>
 </marquee>
