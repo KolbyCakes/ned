@@ -1,14 +1,6 @@
 # Ned
 Run Ned at http://isaiahpatton.github.io/ or http://nedhome.ml or http://n-e-d.github.io
 <hr>
-Ned site:          index.html</p>
-Button CSS:        /stylesheets/button.css</p>
-About Ned:         about.html, readme.md</p>
-Calculator:        calculator.html</p>
-Calendar:	         calendar.html</p>
-Clock:             clock.html</p>
-Google & Yahoo:    google.html</p>
-Money Converter:   moneyconverter.html</p>
 <table style="width:20%">
   <tr>
     <td><center>Name</center></td>
