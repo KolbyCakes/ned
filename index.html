@@ -67,15 +67,15 @@ height="90" title="Clock"></button></a>
 height="90" title="Money Converter"></button></a>
 
 <br /><br /><br />
-<!--<CENTER>-->
+
 <details>
   <summary>Change background color</summary>
-
+<br>
 <font size="1" face="Verdana,Arial,Helvetica,Sans Serif">
-<SCRIPT LANGUAGE="JavaScript">
-function test(form) {
+<sCRIPT LANGUAGE="JavaScript">
+function changebackground(form) {
 if (form.text.value == "")
-alert("Pick a color")
+document.bgColor=("white");
 else { 
 document.bgColor=(""+form.text.value+"");
    }
@@ -84,7 +84,7 @@ document.bgColor=(""+form.text.value+"");
 <FORM>
 Enter a color: 
 <input type="text" name="text">
-<input type="button" name="button" value="Change Background" onClick="test(this.form)">
+<input type="button" name="button" value="Change Background" onClick="changebackground(this.form)">
 </details></FORM>
 </CENTER>
 </marquee>
