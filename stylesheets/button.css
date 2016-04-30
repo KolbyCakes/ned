@@ -132,9 +132,9 @@ button {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
+	font-size:13px;
 	font-weight:bold;
-	padding:5px 10px;
+	padding:5px 5px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528ecc;
 }
