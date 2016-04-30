@@ -1,5 +1,5 @@
 # Run Ned
-Run Ned at http://nedhome.ml/ or http://isaiahpatton.github.io or for HTTPS <a href="https://isaiahpatton.github.io">click here</a>
+Run Ned at http://nedhome.ml/ or Try newer updates at http://beta.nedhome.ml
 # Source Files
 <table style="width:20%">
   <tr>
