@@ -1,4 +1,4 @@
-ul.copyright {
+ul.footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,6 +12,6 @@ ul.copyright {
     display: block;
     color: #666;
     text-align: center;
-    padding: 10px 10px;
+    padding: 2px 2px;
     text-decoration: none;
 }
