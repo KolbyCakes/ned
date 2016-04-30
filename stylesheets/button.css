@@ -79,9 +79,8 @@ details:hover {
    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
    background: -o-linear-gradient(top, #65a9d7, #3e779d);
    background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
-   color: #fff;	
+   color: #fff;
 }
-
 .newbutton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
@@ -96,7 +95,7 @@ details:hover {
 	background-color:#79bbff;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
-	border-radius:5px;
+	border-radius:6px;
 	border:1px solid #84bbf3;
 	display:inline-block;
 	cursor:pointer;
@@ -104,7 +103,7 @@ details:hover {
 	font-family:Arial;
 	font-size:13px;
 	font-weight:bold;
-	padding:3px 3px;
+	padding:6px 10px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528ecc;
 }
@@ -122,3 +121,4 @@ details:hover {
 	position:relative;
 	top:1px;
 }
+
