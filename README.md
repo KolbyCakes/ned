@@ -7,7 +7,7 @@ Run Ned at http://nedhome.ml/
     <td><center>Source File</center></td>		
   </tr>
   <tr>
-    <td>Ned site</p>Old Ned V1.9.1</p>Calculator</p>Calender</p>Clock</p>Google & Yahoo</p>Money Converter</td>		
+    <td>Ned V2.0</p>Old Ned V1.9.1</p>Calculator</p>Calender</p>Clock</p>Google & Yahoo</p>Money Converter</td>		
     <td>index.html</p>V1.html</p>/tools/calculator.html</p>/tools/calendar.html</p>/tools/clock.html</p>/tools/google.html</p>/tools/moneyconverter.html</td>	
   </tr>
 </table>
