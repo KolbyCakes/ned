@@ -32,8 +32,8 @@ var physics_accuracy  = 3,
     mouse_influence   = 20,
     mouse_cut         = 5,
     gravity           = 1200,
-    cloth_height      = 50,
-    cloth_width       = 90,
+    cloth_height      = 30,
+    cloth_width       = 50,
     start_y           = 20,
     spacing           = 7,
     tear_distance     = 60;
@@ -288,8 +288,8 @@ window.onload = function () {
     canvas  = document.getElementById('c');
     ctx     = canvas.getContext('2d');
 
-    canvas.width  = 560;
-    canvas.height = 350;
+    canvas.width  = 960;
+    canvas.height = 550;
 
     start();
 };
