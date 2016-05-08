@@ -28,15 +28,15 @@ document.getElementById('close').onmousedown = function(e) {
 
 // settings
 
-var physics_accuracy = 3,
-    mouse_influence = 20,
-    mouse_cut = 5,
-    gravity = 1200,
-    cloth_height = 30,
-    cloth_width = 50,
-    start_y = 20,
-    spacing = 7,
-    tear_distance = 60;
+var physics_accuracy  = 3,
+    mouse_influence   = 20,
+    mouse_cut         = 5,
+    gravity           = 1200,
+    cloth_height      = 50,
+    cloth_width       = 80,
+    start_y           = 20,
+    spacing           = 7,
+    tear_distance     = 60;
 
 
 window.requestAnimFrame =
@@ -65,15 +65,15 @@ var canvas,
 
 var Point = function (x, y) {
 
-    this.x = x;
-    this.y = y;
-    this.px = x;
-    this.py = y;
-    this.vx = 0;
-    this.vy = 0;
-    this.pin_x = null;
-    this.pin_y = null;
-
+    this.x      = x;
+    this.y      = y;
+    this.px     = x;
+    this.py     = y;
+    this.vx     = 0;
+    this.vy     = 0;
+    this.pin_x  = null;
+    this.pin_y  = null;
+    
     this.constraints = [];
 };
 
@@ -112,7 +112,7 @@ Point.prototype.update = function (delta) {
 
 Point.prototype.draw = function () {
 
-    if (this.constraints.length <= 0) return;
+    if (!this.constraints.length) return;
 
     var i = this.constraints.length;
     while (i--) this.constraints[i].draw();
@@ -130,23 +130,8 @@ Point.prototype.resolve_constraints = function () {
     var i = this.constraints.length;
     while (i--) this.constraints[i].resolve();
 
-    if (this.x > boundsx) {
-
-        this.x = 2 * boundsx - this.x;
-        
-    } else if (this.x < 1) {
-
-        this.x = 2 - this.x;
-    }
-
-    if (this.y > boundsy) {
-
-        this.y = 2 * boundsy - this.y;
-        
-    } else if (this.y < 1) {
-
-        this.y = 2 - this.y;
-    }
+    this.x > boundsx ? this.x = 2 * boundsx - this.x : 1 > this.x && (this.x = 2 - this.x);
+    this.y < 1 ? this.y = 2 - this.y : this.y > boundsy && (this.y = 2 * boundsy - this.y);
 };
 
 Point.prototype.attach = function (point) {
@@ -156,11 +141,9 @@ Point.prototype.attach = function (point) {
     );
 };
 
-Point.prototype.remove_constraint = function (lnk) {
+Point.prototype.remove_constraint = function (constraint) {
 
-    var i = this.constraints.length;
-    while (i--)
-        if (this.constraints[i] == lnk) this.constraints.splice(i, 1);
+    this.constraints.splice(this.constraints.indexOf(constraint), 1);
 };
 
 Point.prototype.add_force = function (x, y) {
@@ -176,17 +159,17 @@ Point.prototype.pin = function (pinx, piny) {
 
 var Constraint = function (p1, p2) {
 
-    this.p1 = p1;
-    this.p2 = p2;
+    this.p1     = p1;
+    this.p2     = p2;
     this.length = spacing;
 };
 
 Constraint.prototype.resolve = function () {
 
-    var diff_x = this.p1.x - this.p2.x,
-        diff_y = this.p1.y - this.p2.y,
-        dist = Math.sqrt(diff_x * diff_x + diff_y * diff_y),
-        diff = (this.length - dist) / dist;
+    var diff_x  = this.p1.x - this.p2.x,
+        diff_y  = this.p1.y - this.p2.y,
+        dist    = Math.sqrt(diff_x * diff_x + diff_y * diff_y),
+        diff    = (this.length - dist) / dist;
 
     if (dist > tear_distance) this.p1.remove_constraint(this);
 
@@ -262,13 +245,13 @@ function update() {
 function start() {
 
     canvas.onmousedown = function (e) {
-        mouse.button = e.which;
-        mouse.px = mouse.x;
-        mouse.py = mouse.y;
-        var rect = canvas.getBoundingClientRect();
-        mouse.x = e.clientX - rect.left,
-        mouse.y = e.clientY - rect.top,
-        mouse.down = true;
+        mouse.button  = e.which;
+        mouse.px      = mouse.x;
+        mouse.py      = mouse.y;
+        var rect      = canvas.getBoundingClientRect();
+        mouse.x       = e.clientX - rect.left,
+        mouse.y       = e.clientY - rect.top,
+        mouse.down    = true;
         e.preventDefault();
     };
 
@@ -278,11 +261,11 @@ function start() {
     };
 
     canvas.onmousemove = function (e) {
-        mouse.px = mouse.x;
-        mouse.py = mouse.y;
-        var rect = canvas.getBoundingClientRect();
-        mouse.x = e.clientX - rect.left,
-        mouse.y = e.clientY - rect.top,
+        mouse.px  = mouse.x;
+        mouse.py  = mouse.y;
+        var rect  = canvas.getBoundingClientRect();
+        mouse.x   = e.clientX - rect.left,
+        mouse.y   = e.clientY - rect.top,
         e.preventDefault();
     };
 
@@ -294,17 +277,19 @@ function start() {
     boundsy = canvas.height - 1;
 
     ctx.strokeStyle = '#888';
+  
     cloth = new Cloth();
+  
     update();
 }
 
 window.onload = function () {
 
-    canvas = document.getElementById('c');
-    ctx = canvas.getContext('2d');
+    canvas  = document.getElementById('c');
+    ctx     = canvas.getContext('2d');
 
-    canvas.width = 560;
-    canvas.height = 350;
+    canvas.width  = 960;
+    canvas.height = 550;
 
     start();
 };
