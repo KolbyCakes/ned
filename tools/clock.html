@@ -46,7 +46,36 @@ html, body, bg, background {
 <hr>
 
 <head>
-<meta http-equiv="Content-Language" content="en-us">
+  <!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = Date();
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<CENTER><h1>[ Time ]</h1>
+<hr>
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
+<!--<meta http-equiv="Content-Language" content="en-us">
 <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
@@ -80,7 +109,7 @@ html, body, bg, background {
 
 
 
-<!--Place holder for NS4 only-->
+<!--Place holder for NS4 only--/>
 <ilayer id="worldclockns" width=90% height=35><layer id="worldclockns2" width=90% height=35 left=0 top=0 style="font:bold 16px Arial;"></layer></ilayer>
 
 </td>
