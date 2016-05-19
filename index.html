@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="//isaiahpatton.github.io/ned/stylesheets/button.css">
     <link rel="stylesheet" type="text/css" href="//isaiahpatton.github.io/ned/stylesheets/footer.css">
     <link rel="stylesheet" type="text/css" href="//isaiahpatton.github.io/ned/stylesheets/ribbon.css">
+    <link rel="stylesheet" type="text/css" href="//isaiahpatton.github.io/ned/stylesheets/settings.css">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,7 +27,10 @@
       <div class="inner">
         <!--<h3 style="color:white">Welcome to Ned V2 . 3</h3>-->
         <!--Ned Face--><CENTER>
-          <img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" alt="Ned's Face" height="200" width="600"><br>
+          <!--<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" alt="Ned's Face" height="200" width="600"><br>-->
+          <script type="text/javascript" src="http://isaiahpatton.github.io/ned/js/settings.js"></script>
+          <p id="demo">
+          <script type="text/javascript" src="http://isaiahpatton.github.io/ned/js/settings.js"></script>
           <!--JavaScript change Ned face-->
             <script type="text/javascript" src="http://isaiahpatton.github.io/ned/js/face.js"></script>
             </CENTER>
@@ -109,8 +113,16 @@ html, body, bg, background {
       <small class="extra2">
         <p class="repo-owner" style="color:black"><a href="https://github.com/IsaiahPatton/ned">Ned</a> is maintained by <a href="https://github.com/IsaiahPatton">Isaiah Patton</a>,   This page was generated using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p></small></ul>
 <!--Fork on Github--><a class="github-button" href="https://github.com/IsaiahPatton/ned/fork" data-style="mega" data-count-href="/IsaiahPatton/ned2/network" data-count-api="/repos/IsaiahPatton/ned#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork IsaiahPatton/ned on GitHub">Fork</a>
-<!--Report bug on Github--><a class="github-button" href="https://github.com/IsaiahPatton/ned/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/IsaiahPatton/ned#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue IsaiahPatton/ned on GitHub">Issue</a>       
-<!--Download on Github--><a class="github-button" href="https://github.com/IsaiahPatton/ned/archive/gh-pages.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download IsaiahPatton/ned on GitHub">Download</a>
+<!--Report bug on Github--><a class="github-button" href="https://github.com/IsaiahPatton/ned/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/IsaiahPatton/ned#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue IsaiahPatton/ned on GitHub">Issue</a>
           <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script></footer>
+          <script type="text/javascript" src="http://isaiahpatton.github.io/ned/js/settings.js"></script>
+          <nedsettings id="sbox" onclick="sbox()">Show Settings</nedsettings>
+          <nedsettings id="hbox" onclick="hbox()"></nedsettings>
+          <nedsettings id="inside"></nedsettings>
+          <nedsettings id="insideText">
+            <nedface id="hide" onclick="hideface()">Hide face</nedface>
+            <nedface id="show"></nedface>
+          </nedsettings>
+          <script type="text/javascript" src="http://isaiahpatton.github.io/ned/js/settings.js"></script>
   </body>
 </html>
