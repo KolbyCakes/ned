@@ -1,5 +1,3 @@
-<script>
-//<javascript>
 document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="200" width="600"><br>';
 
 function hideface() {
