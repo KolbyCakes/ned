@@ -25,7 +25,7 @@ document.getElementById("sbox").innerHTML = '';
 }
 
 function backgroundon() {
-document.getElementById("bg").innerHTML = '    <style type="text/css" id="bg">
+document.getElementById("bg").innerHTML = '<style type="text/css" id="bg">
 html, body, bg, background {
   background-image: url("http://enjoycss.com/webshots/hB_1.png");
 }
