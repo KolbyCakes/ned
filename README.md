@@ -1,10 +1,5 @@
 # Run Ned
 Run Ned at http://nedhome.ml/ or https://n-e-d.github.io/ned
-<syle type="text/css">
-a {
- color: black;
-}
-</style>
 # Source Files
 <table style="width:20%">
   <tr>
