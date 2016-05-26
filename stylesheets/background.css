@@ -1,5 +1,6 @@
 html, body, background, bg, nedbackground {
-    background-image: url("http://enjoycss.com/webshots/hB_1.png");    
+    background-image: url("http://enjoycss.com/webshots/hB_1.png");
+    border: 4px solid yellow;
 }
 nedpages {
     display: block;
