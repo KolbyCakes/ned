@@ -2,7 +2,9 @@ html, body, background, bg, nedbackground {
     background-image: url("http://enjoycss.com/webshots/hB_1.png");
 }
 nedbuttons {
+    display: block;
     border: 4px solid yellow;
+    border-style: outset;
 }
 nedpages {
     display: block;
