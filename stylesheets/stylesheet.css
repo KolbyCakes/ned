@@ -441,7 +441,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background: #fafafa url(http://n-e-d.github.io/ned-beta/images/body-bg.jpg) 0 0 repeat;
 }
 
 p {
@@ -459,7 +459,7 @@ header {
   padding-top: 1px;
   padding-bottom: 1px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: #2e7bcf url(http://n-e-d.github.io/ned-beta/images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
