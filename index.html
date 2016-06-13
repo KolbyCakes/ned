@@ -21,6 +21,12 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <p>Please don't use Internet Explorer 9</p>
     <![endif]-->
+    
+    <script type="text/javascript">
+      if (screen.width <= 699) {
+        document.location = "http://nedhome.ml/m";
+      }
+      </script>
 
     <title>Ned by Isaiah Patton</title>
   </head>
@@ -108,10 +114,16 @@
     <br />
     <hr>
     <CENTER>
+      <script type="text/javascript" src="http://nedhome.ml/js/footer.js"></script>
+      <script type="text/javascript">
+        footer();
+        nedsettings();
+        outhersites();
+      </script>
       <small class="extra2">
-        <p class="repo-owner" style="color:black"><a href="https://github.com/n-e-d/ned">Ned</a> is maintained by <a href="https://github.com/IsaiahPatton">Isaiah Patton</a>, This page was generated using modifyed version of the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p></small></ul>
-<!--Fork on Github--><a class="github-button" href="https://github.com/n-e-d/ned/fork" data-style="mega" data-count-href="/n-e-d/ned/network" data-count-api="/repos/n-e-d/ned#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork ned on GitHub">Fork</a>
-<!--Report bug on Github--><a class="github-button" href="https://github.com/n-e-d/ned/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/n-e-d/ned#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue ned on GitHub">Report Issue</a></p>
+      <!--<p class="repo-owner" style="color:black"><a href="https://github.com/n-e-d/ned">Ned</a> is maintained by <a href="https://github.com/IsaiahPatton">Isaiah Patton</a>, This page was generated using modifyed version of the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p></small></ul>
+<!--Fork on Github--<a class="github-button" href="https://github.com/n-e-d/ned/fork" data-style="mega" data-count-href="/n-e-d/ned/network" data-count-api="/repos/n-e-d/ned#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork ned on GitHub">Fork</a>
+<!--Report bug on Github--<a class="github-button" href="https://github.com/n-e-d/ned/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/n-e-d/ned#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue ned on GitHub">Report Issue</a></p>
           <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script></footer>
           <script type="text/javascript" src="http://n-e-d.github.io/ned/js/settings.js"></script>
           <nedsettings id="sbox" onclick="sbox()">Show Settings</nedsettings>
@@ -121,7 +133,7 @@
             <nedface id="hide" onclick="hideface()">Hide face</nedface>
             <nedface id="show"><!--This will be replace 'Hide Face' when you click Hide--></nedface>
             <!--nedface id="bgdisable" onclick="backgroundoff()">Disable Background</nedface>
-            <nedface id="bgenable"></nedface>-->
+            <nedface id="bgenable"></nedface>--
           </nedsettings>
           <script type="text/javascript" src="http://n-e-d.github.io/ned/js/bg.js"></script>
           <script type="text/javascript" src="http://n-e-d.github.io/ned/js/settings.js"></script>
@@ -134,5 +146,5 @@
             <a href="http://blog.nedhome.ml">Blog</a>
           </nedpages>
   </body>
- </nedbuttons>
+ </nedbuttons>-->
 </html>
