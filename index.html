@@ -23,8 +23,9 @@
     <![endif]-->
     
     <script type="text/javascript">
-      if (screen.width <= 699) {
-        document.location = "http://nedhome.ml/m";
+      if (screen.width <= 699 || window.location.href == "http://nedhome.ml/?m") {
+        //document.location = "http://nedhome.ml/m";
+        document.write("<p>Please don't use Moble</p>");
       }
       </script>
 
