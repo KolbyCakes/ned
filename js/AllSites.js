@@ -1,7 +1,7 @@
 function AllNedTools() {
-   NedTool("Calculator", "nedhome.mlnedhome.ml/tools/calculator", "www.free-icons-download.net/images/calculator-logo-73002.png");
+   NedTool("Calculator", "nedhome.ml/tools/calculator", "www.free-icons-download.net/images/calculator-logo-73002.png");
    
-   NedTool("Calander", "nedhome.mlnedhome.ml/tools/calendar", "goo.gl/hGkTvi")
+   NedTool("Calander", "nedhome.ml/tools/calendar", "goo.gl/hGkTvi")
    
    NedTool("Clock", "nedhome.ml/tools/clock", "goo.gl/V4Zwrh");
    
