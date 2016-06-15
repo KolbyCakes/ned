@@ -17,7 +17,8 @@ function AllOutherSites() {
    OutherSite("Linux", "linux.com", "upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1000px-Tux.svg.png");
    
    OutherSite("CCleaner", "ccleaner.com", "upload.wikimedia.org/wikipedia/en/4/4a/CCleaner_logo_2013.png");
-   
+}
+function AllSocialMedia() {
    OutherSite("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
    
    OutherSite("Twitter", "twitter.com", "upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png");
@@ -25,4 +26,5 @@ function AllOutherSites() {
 function AllSites() {
    AllNedTools();
    AllOutherSites();
+   AllSocialMedia();
 }
