@@ -19,3 +19,10 @@ function OutherSite(name, url, img) {
 function SocialMedia(name, url, img) {
     Button(name, url, "Social Media", img);
 }
+function NewLine(type) {
+    if(type == "p") {
+        document.write("</p>")
+    } else if(type == "br") {
+        document.write("<br>")
+    }
+}
