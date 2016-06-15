@@ -65,7 +65,11 @@
   AllSites();
  </script>
 
-
+<script>
+  if(window.location.href == "http://nedhome.ml/?nojstest") {
+    document.write('<iframe width="100%" height="300px" src="nojs.html" name="iframe_a">');
+  }
+</script>
 <noscript>
 <iframe width="100%" height="300px" src="nojs.html" name="iframe_a">
 </noscript>
