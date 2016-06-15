@@ -19,9 +19,9 @@ function AllOutherSites() {
    OutherSite("CCleaner", "ccleaner.com", "upload.wikimedia.org/wikipedia/en/4/4a/CCleaner_logo_2013.png");
 }
 function AllSocialMedia() {
-   OutherSite("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
+   SocialMedia("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
    
-   OutherSite("Twitter", "twitter.com", "upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png");
+   SocialMedia("Twitter", "twitter.com", "upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png");
 }
 function AllSites() {
    AllNedTools();
