@@ -16,3 +16,6 @@ function NedTool(name, url, img) {
 function OutherSite(name, url, img) {
     Button(name, url, "Outher Site", img)
 }
+function SocialMedia(name, url, img) {
+    Button(name, url, "Social Media", img);
+}
