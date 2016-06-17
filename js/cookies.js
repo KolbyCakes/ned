@@ -31,3 +31,8 @@ function checkCookie() {
        }
     }
 }
+
+function resetName() {
+    user = prompt("Please enter your new name:","");
+    setCookie("username", user, 30);
+}
