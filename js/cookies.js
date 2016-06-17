@@ -23,7 +23,7 @@ function getCookie(cname) {
 function checkCookie() {
     var user=getCookie("username");
     if (user != "") {
-        document.write("Welcome again " + user);
+        document.write("<displayname syle='color:black'>" + "Welcome again " + user + "</displayname>");
     } else {
        user = prompt("Please enter your name:","");
        if (user != "" && user != null) {
