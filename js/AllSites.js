@@ -6,6 +6,8 @@ function AllNedTools() {
    NedTool("Clock", "nedhome.ml/tools/clock", "goo.gl/V4Zwrh");
    
    NedTool("$ Converter", "nedhome.ml/tools/moneyconverter", "goo.gl/g0vTnM");
+   
+   NedGames();
 }
 function AllOutherSites() {
    OutherSite("SUSEStudio", "susestudio.com", "goo.gl/64ozgA");
