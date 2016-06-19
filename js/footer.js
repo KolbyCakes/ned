@@ -1,6 +1,6 @@
 function footer() {
     document.write('<br>');
-    document.write('<hr>');
+    document.write('<footer>');
     document.write('<CENTER>');
     document.write(' <small class="extra2">');
     document.write('   <p class="repo-owner" style="color:black">');
