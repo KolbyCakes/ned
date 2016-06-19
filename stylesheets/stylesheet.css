@@ -459,7 +459,7 @@ header {
   padding-top: 1px;
   padding-bottom: 1px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(http://n-e-d.github.io/ned-beta/images/header-bg.jpg) 0 0 repeat-x;
+  background: #2e7bcf url(https://raw.githubusercontent.com/n-e-d/ned-testing-old/gh-pages/images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -524,26 +524,6 @@ aside#sidebar p.repo-owner a {
   margin-bottom: 40px;
 }
 
-a.button {
-  width: 134px;
-  height: 58px;
-  padding-top: 22px;
-  padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
-  line-height: 1.2;
-  color: #fff;
-}
-a.button small {
-  display: block;
-  font-size: 11px;
-}
-header a.button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
-}
 a.download {
   display: block;
   width: 138px;
@@ -755,7 +735,7 @@ footer {
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: transparent url('https://raw.githubusercontent.com/n-e-d/ned-testing-old/gh-pages/images/hr.gif') 0 0 no-repeat;
 }
 
 a {
@@ -888,6 +868,7 @@ a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+/* Background NOW IN BACKGROUND CSS*/
 html.bg, body.bg {
     background-image: url("http://enjoycss.com/webshots/hB_1.png");    
 }
