@@ -1,6 +1,7 @@
 ;(function(){
 
 // Your message here (QUOTED STRING)
+var user=getCookie("username");
 if (user == null) {
  var msg = "Hello";
 } else {
