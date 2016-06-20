@@ -1,12 +1,13 @@
 ;(function(){
 
 // Your message here (QUOTED STRING)
-var user=getCookie("username");
+var msg = "Hello"
+/* var user=getCookie("username");
 if (user == null) {
  var msg = "Hello";
 } else {
  var msg = "Hello" + user;
-}
+}*/
 
 /* THE REST OF THE EDITABLE VALUES BELOW ARE ALL UNQUOTED NUMBERS */
 
