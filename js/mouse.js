@@ -1,7 +1,11 @@
 ;(function(){
 
 // Your message here (QUOTED STRING)
-var msg = "Hello";
+if (user == null) {
+ var msg = "Hello";
+} else {
+ vear msg = "Hello" + user;
+}
 
 /* THE REST OF THE EDITABLE VALUES BELOW ARE ALL UNQUOTED NUMBERS */
 
