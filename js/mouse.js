@@ -4,7 +4,7 @@
 if (user == null) {
  var msg = "Hello";
 } else {
- vear msg = "Hello" + user;
+ var msg = "Hello" + user;
 }
 
 /* THE REST OF THE EDITABLE VALUES BELOW ARE ALL UNQUOTED NUMBERS */
