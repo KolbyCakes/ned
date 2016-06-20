@@ -27,6 +27,4 @@ function NewLine(type) {
         document.write("<br>")
     }
 }
-function Write(text) {
-    document.write(text)
-}
+
