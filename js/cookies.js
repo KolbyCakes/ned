@@ -28,7 +28,7 @@ function checkCookie() {
        user = prompt("Please enter your name:","");
        if (user != "" && user != null) {
            setCookie("username", user, 30);
-           checkCookie();
+           document.write("<displayname syle='color:black'>" + "Welcome again " + user + "</displayname>");
        }
     }
 }
