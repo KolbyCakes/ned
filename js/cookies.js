@@ -22,6 +22,10 @@ function getCookie(cname) {
 
 function checkCookie() {
     var user=getCookie("username");
+    if (user == null || user == "") {
+        document.write("&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ");
+    }
+    
     if (user != "") {
         document.write("<displayname syle='color:black'>" + "Welcome again " + user + "</displayname>");
     } else {
