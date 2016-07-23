@@ -1,4 +1,8 @@
 function AllNedTools() {
+   NedTool("Google", "nedhome.ml/tools/google", "goo.gl/b274CE");
+   
+   NedTool("Yahoo", "nedhome.ml/tools/google?yahoo", "goo.gl/Tu73C3");
+   
    NedTool("Calculator", "nedhome.ml/tools/calculator", "www.free-icons-download.net/images/calculator-logo-73002.png");
    
    NedTool("Calander", "nedhome.ml/tools/calendar", "goo.gl/hGkTvi")
