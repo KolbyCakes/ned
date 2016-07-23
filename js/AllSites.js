@@ -19,6 +19,8 @@ function AllOutherSites() {
    OutherSite("Linux", "linux.com", "upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1000px-Tux.svg.png");
    
    OutherSite("CCleaner", "ccleaner.com", "upload.wikimedia.org/wikipedia/en/4/4a/CCleaner_logo_2013.png");
+   
+   OutherSite("Microsoft", "microsoft.com", "img05.deviantart.net/e1f7/i/2011/251/e/4/microsoft_windows_logo_3000px_by_davidm147-d3hax3m.png");
 }
 function AllSocialMedia() {
    SocialMedia("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
