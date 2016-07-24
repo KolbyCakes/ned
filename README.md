@@ -1,3 +1,6 @@
+#What is Ned?
+Ned is a home page for you with use full links, kid area, safe google, working free tv, and lots more!
+
 # Run Ned
 Run Ned at http://nedhome.ml/ or https://n-e-d.github.io/ned
 # Source Files
@@ -7,7 +10,7 @@ Run Ned at http://nedhome.ml/ or https://n-e-d.github.io/ned
     <td><center>Source File</center></td>		
   </tr>
   <tr>
-    <td>Ned V2</p>Old Ned V1.9.1</p>Old Ned V1.7</p>Calculator</p>Calender</p>Clock</p>Google & Yahoo</p>Money Converter</p>Ned Games</td>		
-    <td>index.html</p>V1.9.html</p>V1.7.html</p>/tools/calculator.html</p>/tools/calendar.html</p>/tools/clock.html</p>/tools/google.html</p>/tools/moneyconverter.html</p><a href="https://github.com/n-e-d/ned-games/">games - index.html</td>	
+    <td>Ned</p>Calculator</p>Calender</p>Clock</p>Google & Yahoo</p>Money Converter</p>Ned Games</td>		
+    <td>index.html</p>/tools/calculator.html</p>/tools/calendar.html</p>/tools/clock.html</p>/tools/google.html</p>/tools/moneyconverter.html</p><a href="https://github.com/n-e-d/ned-games/">games - index.html</td>	
   </tr>
 </table>
