@@ -41,12 +41,29 @@ html, body, bg, background {
 <script>
   if (window.location.href == "http://nedhome.ml/tools/google?yahoo") {
     document.write('<form method="get" action="http://www.yahoo.com/search"><table border="0" cellpadding="0"> <tr><td> <input type="text" name="p" size="25" maxlength="255" value="" /> <input type="submit" value="Yahoo!" /></td></tr> <tr><td align="center" style="font-size:75%"> <br /> </td></tr></table>  </form>');
+  } else if (window.location.href == "http://nedhome.ml/tools/google?kids") {
+    document.write('Use Kidz: ');
+    document.write('<form method="get" action="http://search.kidzsearch.com/kzsearch.php"><table border="0" cellpadding="0"> <tr><td> <input type="text" name="p" size="25" maxlength="255" value="" /> <input type="submit" value="Google" /></td></tr> <tr><td align="center" style="font-size:75%"> <br /> </td></tr></table>  </form>');
+    document.write('</p>');
+    document.write('Or use KidRex: ');
+    document.write('<form method="get" action="http://www.kidrex.org/results/"><table border="0" cellpadding="0"> <tr><td> <input type="text" name="p" size="25" maxlength="255" value="" /> <input type="submit" value="Google" /></td></tr> <tr><td align="center" style="font-size:75%"> <br /> </td></tr></table>  </form>');
   } else {
     document.write('<form method="get" action="http://www.google.com/search"><table border="0" cellpadding="0"> <tr><td> <input type="text" name="q" size="25" maxlength="255" value="" /> <input type="submit" value="Google" /></td></tr> <tr><td align="center" style="font-size:75%"> <br /> </td></tr></table>  </form>');
   }
 </script>
-<a href="http://nedhome.ml/tools/google" class="oldbutton">Use Google</a>
-<a href="http://nedhome.ml/tools/google?yahoo" class="oldbutton">Use Yahoo!</a>
+<script>
+if (window.location.href != "http://nedhome.ml/google?kids") {
+  document.write('<CENTER>');
+  document.write('  <a href="http://nedhome.ml/tools/google" class="oldbutton">Use Google</a>');
+  document.write('  <a href="http://nedhome.ml/tools/google?yahoo" class="oldbutton">Use Yahoo!</a>');
+  document.write('</CENTER>');
+} else {
+  document.write('<CENTER>');
+  document.write('  <a href="http://nedhome.ml/tools/google?kids" class="oldbutton"><del>Use Google</del></a>');
+  document.write('  <a href="http://nedhome.ml/tools/google?kids" class="oldbutton"><del>Use Yahoo!</del></a>');
+  document.write('</CENTER>');
+}
+</script>
 <table BORDER="0" WIDTH="222" HEIGHT="18">
-    <CENTER><p>Ned is not affiliated with Google, Yahoo!, or Bing</p>
+    <CENTER><p>Ned is not affiliated with Google, Yahoo!, Bing, Kidz, or KidRex</p>
 <a href="/"><button>Back to Ned</button></a></p> </CENTER>
