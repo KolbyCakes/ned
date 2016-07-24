@@ -2,9 +2,11 @@ function write(text) {
     document.write(text);
 }
 function URL() {
-    window.location.href;
+    return window.location.href;
 }
-function isURL(check) {}
+function isURL(url) {
+    return window.location.href == url;
+}
 function SetURL(url) {
     if (url == "https://nedhome.ml") {
       url == "http://nedhome.ml";
