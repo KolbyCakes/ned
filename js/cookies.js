@@ -41,3 +41,8 @@ function resetName() {
     user = prompt("Please enter your new name:","");
     setCookie("username", user, 30);
 }
+
+function gotoProfile() {
+    window.location.href = "http://nedhome.ml/profile";
+}
+
