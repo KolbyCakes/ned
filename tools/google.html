@@ -52,15 +52,15 @@ html, body, bg, background {
   }
 </script>
 <script>
-if (!window.location.href == "http://nedhome.ml/google?kids") {
-  document.write('<CENTER>');
-  document.write('  <a href="http://nedhome.ml/tools/google" class="oldbutton">Use Google</a>');
-  document.write('  <a href="http://nedhome.ml/tools/google?yahoo" class="oldbutton">Use Yahoo!</a>');
-  document.write('</CENTER>');
-} else {
+if (window.location.href == "http://nedhome.ml/google?kids") {
   document.write('<CENTER>');
   document.write('  <a href="http://nedhome.ml/tools/google?kids" class="oldbutton"><del>Use Google</del></a>');
   document.write('  <a href="http://nedhome.ml/tools/google?kids" class="oldbutton"><del>Use Yahoo!</del></a>');
+  document.write('</CENTER>');
+} else {
+  document.write('<CENTER>');
+  document.write('  <a href="http://nedhome.ml/tools/google" class="oldbutton">Use Google</a>');
+  document.write('  <a href="http://nedhome.ml/tools/google?yahoo" class="oldbutton">Use Yahoo!</a>');
   document.write('</CENTER>');
 }
 </script>
