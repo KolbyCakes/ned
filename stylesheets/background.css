@@ -1,5 +1,5 @@
 * {
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=2825);
+    cursor:url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;
 }
 
 html, body, background, bg, nedbackground {
@@ -12,6 +12,7 @@ html, body, background, bg, nedbackground {
     background-size: 58px 58px;	
     background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
     background-repeat: repeat;
+    cursor:url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;}
 }
 nedbuttons {
     display: block;
