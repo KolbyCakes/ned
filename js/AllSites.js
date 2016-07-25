@@ -67,6 +67,7 @@ function AllKids() {
     Kids("Safe Google", "nedhome.ml/tools/google?kids", "www.edu.pe.ca/lmmontgomery/Links/images/kid_rex.jpg");
     Kids("GamesFreak", "gamesfreak.net", "static.gamepilot.com/i/c75_themes/gamesfreak/fast-freddy-blue-pale.jpg");
     Kids("Minecraft", "minecraft.net", "alice.violympic.vn/assets/uploads/member/icon_minecraft.png");
+    Kids("PBS Kids", "pbskids.org", "grundycenter.lib.ia.us/images/icons/pbskids-logo.png");
 }
 
 function AllSites() {
