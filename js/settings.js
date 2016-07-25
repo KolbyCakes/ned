@@ -1,4 +1,4 @@
-document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="175" width="500"><br>';
+document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="175" width="500">';
 
 function hideface() {
 document.getElementById("demo").innerHTML = '';
