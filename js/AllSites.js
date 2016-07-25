@@ -56,7 +56,9 @@ function AllSocialMedia() {
    
    SocialMedia("Flickr", "flickr.com", "upload.wikimedia.org/wikipedia/commons/9/9b/Flickr_logo.png");
    
-   SocialMedia("Google+", "plus.google.com", "upload.wikimedia.org/wikipedia/commons/1/13/Google%2Bapp_icon.png")
+   SocialMedia("Google+", "plus.google.com", "upload.wikimedia.org/wikipedia/commons/1/13/Google%2Bapp_icon.png");
+   
+   SocialMedia("Imgur", "imgur.com", "upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Imgur_logo.svg/2000px-Imgur_logo.svg.png");
 }
 function AllKids() {
     Kids("Disney", "disney.com", "upload.wikimedia.org/wikipedia/commons/4/4c/Walt_Disney_Pictures.png");
