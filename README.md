@@ -1,5 +1,5 @@
 #What is Ned?
-Ned is a home page for you with use full links, kid area, safe google, working free tv, and lots more!
+Ned is a home page for you with a caluator, calander, clock, google, yahoo, working tv, working radio, links to outher websites, Money converter, Games, Safe Google, and lots more!
 
 # Run Ned
 Run Ned at http://nedhome.ml/ or https://n-e-d.github.io/ned
