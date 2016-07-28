@@ -19,6 +19,6 @@ For source files take the part after the http://nedhome.ml and put it after http
 
 Ex:
 
-http://nedhome.ml<b>/about</b>
-=
-https://github.com/n-e-d/ned/tree/gh-pages<b>/about</b>
+nedhome.ml<b>/about</b>
+-->
+github.com/n-e-d/ned/tree/gh-pages<b>/about</b>
