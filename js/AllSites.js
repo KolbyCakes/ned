@@ -18,7 +18,8 @@ function AllNedTools() {
    
    DNedTool("Calculator", "www.free-icons-download.net/images/calculator-logo-73002.png");
    
-   DNedTool("Calendar", "goo.gl/hGkTvi")
+   //DNedTool("Calendar", "goo.gl/hGkTvi");
+   DNedTool("Calendar", "pixabay.com/static/uploads/photo/2016/01/20/10/52/maintenance-1151312_960_720.png");
    
    DNedTool("Clock", "goo.gl/V4Zwrh");
    
