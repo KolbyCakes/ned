@@ -29,7 +29,7 @@ function AllNedTools() {
    
    DNedTool("Radio", "upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Icon_sound_radio.svg/1259px-Icon_sound_radio.svg.png");
    
-   DNedTool("Tv", "pixabay.com/static/uploads/photo/2016/03/31/15/23/icon-1293234_960_720.png");
+   DNedTool("Tv", "nedhome.ml/imgs/LAPTOP.png"); //pixabay.com/static/uploads/photo/2013/07/13/01/20/monitor-155565_960_720.png
    
    NedGames();
 }
