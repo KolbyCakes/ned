@@ -25,7 +25,7 @@ function AllNedTools() {
    
    NedTool("$ Converter", "nedhome.ml/tools/moneyconverter", "goo.gl/g0vTnM");
    
-   DNedTool("Holidays", "pixabay.com/static/uploads/photo/2015/12/10/17/46/fir-1086772_960_720.png");
+   DNedTool("Holidays", "nedhome.ml/imgs/tree.png"); //pixabay.com/static/uploads/photo/2015/12/10/17/46/fir-1086772_960_720.png
    
    DNedTool("Radio", "upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Icon_sound_radio.svg/1259px-Icon_sound_radio.svg.png");
    
