@@ -11,6 +11,8 @@ How to use:
         Button("Name", "url", "NedTool", "image");
 */
 
+// All the images are found on Google with usage rights set to 'Labeled for reuse'.
+
 function AllNedTools() {
    DNedTool("google", "goo.gl/b274CE");
    
@@ -18,8 +20,7 @@ function AllNedTools() {
    
    DNedTool("Calculator", "www.free-icons-download.net/images/calculator-logo-73002.png");
    
-   //DNedTool("Calendar", "goo.gl/hGkTvi");
-   DNedTool("Calendar", "pixabay.com/static/uploads/photo/2016/01/20/10/52/maintenance-1151312_960_720.png");
+   //DNedTool("Calendar", "goo.gl/hGkTvi"); Not working
    
    DNedTool("Clock", "goo.gl/V4Zwrh");
    
@@ -30,6 +31,8 @@ function AllNedTools() {
    DNedTool("Radio", "upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Icon_sound_radio.svg/1259px-Icon_sound_radio.svg.png");
    
    DNedTool("Tv", "nedhome.ml/imgs/LAPTOP.png"); //pixabay.com/static/uploads/photo/2013/07/13/01/20/monitor-155565_960_720.png
+   
+   DNedTool("Piano", "http://www.publicdomainpictures.net/pictures/30000/velka/piano-notes.jpg");
    
    NedGames();
 }
