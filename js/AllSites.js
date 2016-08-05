@@ -32,7 +32,7 @@ function AllNedTools() {
    
    DNedTool("Tv", "nedhome.ml/imgs/LAPTOP.png"); //pixabay.com/static/uploads/photo/2013/07/13/01/20/monitor-155565_960_720.png
    
-   DNedTool("Piano", "http://www.publicdomainpictures.net/pictures/30000/velka/piano-notes.jpg");
+   DNedTool("Piano", "www.publicdomainpictures.net/pictures/30000/velka/piano-notes.jpg");
    
    NedGames();
 }
