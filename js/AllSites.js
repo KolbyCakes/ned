@@ -73,7 +73,7 @@ function AllKids() {
     Kids("Minecraft", "minecraft.net", "alice.violympic.vn/assets/uploads/member/icon_minecraft.png");
     Kids("PBS Kids", "pbskids.org", "grundycenter.lib.ia.us/images/icons/pbskids-logo.png");
     Kids("CoolMath", "www.coolmath-games.com", "www.coolmath-games.com/sites/cmatgame/files/header/cmg-logo-570.png")
-    Kids("Poptropica", "www.poptropica.com", "http://static.poptropica.com/images/home/popv2-head.jpg");
+    Kids("Poptropica", "www.poptropica.com", "static.poptropica.com/images/home/popv2-head.jpg");
     Kids("FunBrain", "www.funbrain.com", "www.funbrain.com/img/fb-logo-2016.png")
     Kids("Pogo", "pogo.com", "cdn.pogo.com/v/GLSU3A/img/header/new/logo.png");
 }
