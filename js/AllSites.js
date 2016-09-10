@@ -52,6 +52,8 @@ function AllOutherSites() {
    OutherSite("Wikipedia", "wikipedia.org", "upload.wikimedia.org/wikipedia/commons/7/7a/Nohat-wiki-logo.png");
    
    OutherSite("W3 Schools", "w3schools.com", "w3schools.com/favicon.ico");
+   
+   OutherSite("ZunoZap", "zunozap.github.io", "zunozap.github.io/images/flash.png");
 }
 function AllSocialMedia() {
    SocialMedia("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
