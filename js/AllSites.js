@@ -54,6 +54,12 @@ function AllOutherSites() {
    OutherSite("W3 Schools", "w3schools.com", "w3schools.com/favicon.ico");
    
    OutherSite("ZunoZap", "zunozap.github.io", "zunozap.github.io/images/flash.png");
+   
+   OutherSite("GitHub", "github.com", "image.flaticon.com/icons/png/512/25/25231.png");
+   
+   OutherSite("Netflix", "netflix.com", "wpostats.com/img/netflix-logo.png");
+   
+   OutherSite("eBay", "ebay.com", "upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/2000px-EBay_logo.svg.png");
 }
 function AllSocialMedia() {
    SocialMedia("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
@@ -65,6 +71,8 @@ function AllSocialMedia() {
    SocialMedia("Google+", "plus.google.com", "upload.wikimedia.org/wikipedia/commons/1/13/Google%2Bapp_icon.png");
    
    SocialMedia("Imgur", "imgur.com", "upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Imgur_logo.svg/2000px-Imgur_logo.svg.png");
+   
+   SocialMedia("Yahoo Answers", "answers.yahoo.com", "vignette4.wikia.nocookie.net/logopedia/images/7/72/Y!A_7.png/revision/latest?cb=20130813100821");
 }
 function AllKids() {
     Kids("Disney", "disney.com", "upload.wikimedia.org/wikipedia/commons/4/4c/Walt_Disney_Pictures.png");
