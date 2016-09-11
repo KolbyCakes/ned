@@ -41,7 +41,7 @@ function AllOutherSites() {
    
    OutherSite("Weebly", "weebly.com", "upload.wikimedia.org/wikipedia/commons/4/43/Weebly_logo_2013.png");
    
-   OutherSite("Youtube", "youtube.com", "t2.gstatic.com/images?q=tbn:ANd9GcQDfL7X2SHlu_A9qhVi4HhJFMFqkX4VBAZL9LS81bJm_RatOoM71KJX9nv3");
+   //OutherSite("Youtube", "youtube.com", "t2.gstatic.com/images?q=tbn:ANd9GcQDfL7X2SHlu_A9qhVi4HhJFMFqkX4VBAZL9LS81bJm_RatOoM71KJX9nv3");
    
    OutherSite("Linux", "linux.com", "upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1000px-Tux.svg.png");
    
@@ -65,6 +65,8 @@ function AllSocialMedia() {
    SocialMedia("Facebook", "facebook.com", "upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png");
    
    SocialMedia("Twitter", "twitter.com", "upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png");
+   
+   SocialMedia("Youtube", "youtube.com", "t2.gstatic.com/images?q=tbn:ANd9GcQDfL7X2SHlu_A9qhVi4HhJFMFqkX4VBAZL9LS81bJm_RatOoM71KJX9nv3");
    
    SocialMedia("Flickr", "flickr.com", "upload.wikimedia.org/wikipedia/commons/9/9b/Flickr_logo.png");
    
