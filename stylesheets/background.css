@@ -14,7 +14,7 @@ html, body, background, bg, nedbackground {
     background-repeat: repeat;
     //cursor:url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;}
 }
-nedbuttons {
+nedbuttons { 
     display: block;
     border: 4px solid yellow;
     border-style: outset;
@@ -33,4 +33,37 @@ nedpages {
     border-width: 4px;
     border-color: orange;
     border-style: ridge;
+}
+
+.BBC, .repo-owner {
+	-moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+	
+	/filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color: #79bbff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #84bbf3;
+	display: inline-block;
+	/cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 6px 17px;
+	text-decoration:none;
+	text-shadow: 0px 1px 0px #528ecc;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.repo-owner {
+    font-size: 10px;
+}
+
+.BBC:hover {
+    color: #ffffff;
 }
