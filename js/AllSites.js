@@ -13,6 +13,7 @@ How to use:
 
 // All the images are found on Google with usage rights set to 'Labeled for reuse'.
 
+
 function AllNedTools() {
    DNedTool("google", "goo.gl/b274CE");
    
@@ -37,7 +38,9 @@ function AllNedTools() {
    NedGames();
 }
 function AllOutherSites() {
-   OutherSite("SUSEStudio", "susestudio.com", "goo.gl/64ozgA");
+    if (window.innerWidth > 601) {
+        OutherSite("SUSEStudio", "susestudio.com", "goo.gl/64ozgA"); // PC Only
+    }
    
    OutherSite("Weebly", "weebly.com", "upload.wikimedia.org/wikipedia/commons/4/43/Weebly_logo_2013.png");
    
@@ -81,13 +84,19 @@ function AllKids() {
     Kids("Nick", "nick.com", "upload.wikimedia.org/wikipedia/commons/8/85/Nick_(Logo).png");
     Kids("CN", "cartoonnetwork.com", "bit.ly/CNLogo"); //The image is from Wikipedia just shortened
     Kids("Safe Google", "nedhome.ml/tools/google?kids", "www.edu.pe.ca/lmmontgomery/Links/images/kid_rex.jpg");
+    if (window.innerWidth > 601) {
     Kids("GamesFreak", "gamesfreak.net", "static.gamepilot.com/i/c75_themes/gamesfreak/fast-freddy-blue-pale.jpg");
+    }
     Kids("Minecraft", "minecraft.net", "alice.violympic.vn/assets/uploads/member/icon_minecraft.png");
     Kids("PBS Kids", "pbskids.org", "grundycenter.lib.ia.us/images/icons/pbskids-logo.png");
     Kids("CoolMath", "www.coolmath-games.com", "www.coolmath-games.com/sites/cmatgame/files/header/cmg-logo-570.png")
     Kids("Poptropica", "www.poptropica.com", "static.poptropica.com/images/home/popv2-head.jpg");
     Kids("FunBrain", "www.funbrain.com", "www.funbrain.com/img/fb-logo-2016.png")
     Kids("Pogo", "pogo.com", "cdn.pogo.com/v/GLSU3A/img/header/new/logo.png");
+}
+function AllEmails() {
+    Email("Gmail", "gmail.com", "");
+    Email("Yahoo", "yahoo.com", "");
 }
 
 function AllSites() {
@@ -104,4 +113,23 @@ function AllSites() {
    NewLine("br");
    
    AllSocialMedia();
+}
+
+function Sites() {
+
+var l = window.location.href;
+
+if (l.includes("cat=nedtools")) {
+    AllNedTools();
+} else
+if (l.includes("cat=outhersites")) {
+    AllOutherSites();
+} else
+if (l.includes("cat=kids")) {
+    AllKids();
+} else
+if (l.includes("cat=media")) {
+    AllSocialMedia()
+} else
+    { AllSites(); }
 }
