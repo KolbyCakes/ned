@@ -29,7 +29,8 @@ function checkCookie() {
     if (user != "") {
         document.write("<displayname syle='color:black'>" + "Welcome again " + user + "</displayname>");
     } else {
-       user = prompt("Please enter your name:","");
+       //user = prompt("Please enter your name:","");
+       user = "OLD_NED, This version does not work on mobile!";
        if (user != "" && user != null) {
            setCookie("username", user, 30);
            document.write("<displayname syle='color:black'>" + "Welcome again " + user + "</displayname>");
