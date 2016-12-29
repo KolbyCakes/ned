@@ -1,4 +1,4 @@
-document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="200" width="600"><br>';
+//document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="175" width="500">';
 
 function hideface() {
 document.getElementById("demo").innerHTML = '';
@@ -7,7 +7,7 @@ document.getElementById("show").innerHTML = '<nedface id="hide" onclick="showfac
 }
 
 function showface() {
-document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="200" width="600"><br>';
+document.getElementById("demo").innerHTML = '<img id="myImage" src="http://i.imgur.com/AP5imrD.png" onclick="nedface()" height="175" width="500"><br>';
 document.getElementById("hide").innerHTML = '<nedface id="hide" onclick="hideface()">Hide face</nedface>';
 document.getElementById("show").innerHTML = '';
 }
